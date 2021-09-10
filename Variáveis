@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+
+int X=1; //sem casa decimal
+float Y=2.1; //com casa decimal
+
+char SEXO;// caracter único
+char NOME [20]; // string
+
+X=1;
+printf("A minha variável X possui valor: %d\n", X);
+
+Y=2.1;
+printf("A minha variável Y possui valor: %f\n", Y);
+
+SEXO = 'F';// feminino
+printf("A minha variável sexo possui o valor: %c\n", SEXO);
+
+strcpy (NOME, "Curso de programação");
+printf("A minha variável Nome possui o valor:%s", NOME);
+}

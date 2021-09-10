@@ -20,5 +20,5 @@ SEXO = 'F';// feminino
 printf("A minha variável sexo possui o valor: %c\n", SEXO);
 
 strcpy (NOME, "Curso de programação");
-printf("A minha variável Nome possui o valor:%s", NOME);
+printf("A minha variável Nome possui o valor: %s", NOME);
 }

@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+  char name [30] ;
+  int age;
+  float salary, increase, complete_salary;
+
+  printf ("What's your first name?");
+  scanf(" %s", &*name);
+
+  printf("How old are you?");
+  scanf("%d", &age);
+
+  printf("What's your salary?");
+  scanf("%f", &salary);
+
+  increase= (salary *0.3);
+  complete_salary= salary+increase;
+
+  printf ("Your increase was of 30%% (%f)\n", increase);
+
+  printf(" %s, you are %d years old and now you salary is %f", name,age, complete_salary);
+
+  return 0;
+}

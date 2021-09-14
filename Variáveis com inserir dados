@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+
+int X; //sem casa decimal
+float Y; //com casa decimal
+
+char A;// caracter único
+char B[20]; // string
+
+printf("Digite um número inteiro:");
+scanf("%d", &X);
+printf("A minha variável X possui valor: %d\n", X);
+
+printf("Digite um número decimal:");
+scanf("%f", &Y);
+printf("A minha variável Y possui valor: %f\n", Y);
+
+printf("Digite um caracter:");
+scanf(" %c", &A);
+printf(" A minha variável A possui o valor: %c\n", A );
+
+printf("Digite uma palavra:");
+scanf(" %s", &B);
+printf(" A minha variável B possui o valor: %s\n", B );
+}
+
